@@ -7,6 +7,7 @@ A site for tracking various data of users including user information, friends, s
 Having a clear and concise overview of activity and tracking it over time is crucial for any fitness/activity related application. Using data fetched from an API, this application simulates viewing activities of random users over a 7 day period.
 
 ## APIs Used
+
 - FitLit API
 
 ## Primary Technologies Used
@@ -24,15 +25,13 @@ Additional enhancements could include:
 - Add an activity tracking widget based on the unused data from [activity API](https://fitlit-api.herokuapp.com/api/v1/activity)
 - Allow users to create/remove widgets and/or customize their positioning
 
-## Screenshots
+## Preview of App
 
-<img width="1440" alt="Screenshot 2024-02-12 at 2 30 11 PM" src="https://github.com/dkwon1223/fitlit/assets/112133897/0d196ca6-cda7-4d8a-9b51-8af300214bb6">
-
-## Gif 
 ![animated 2](https://github.com/dkwon1223/fitlit/assets/147420318/02437f0e-2af6-45dd-aacf-0a8ba449f047)
 
 
 ## Set Up
+
 1. Fork this repository
 2. Clone your own local version of the repository
 3. Run `npm install` to install project dependencies
@@ -40,10 +39,12 @@ Additional enhancements could include:
 5. Navigate to the address provided within the terminal ex: http://localhost:8080/
 
 ## Test Driven Development
+
 This application uses a combination of Mocha Testing Framework and Chai Assertion Library
 - run `npm test` from the associated root directory
 
 ## Contributors
+
 - [Cory Sanders](https://github.com/corysanders3)
 - [Ethan Duvall](https://github.com/Eduvall23)
 - [David Kwon](https://github.com/dkwon1223)
