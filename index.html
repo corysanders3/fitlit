@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fitlit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <nav id="days">
+        <button class="day-selector" id="0"></button>
+        <button class="day-selector" id="1"></button>
+        <button class="day-selector" id="2"></button>
+        <button class="day-selector" id="3"></button>
+        <button class="day-selector" id="4"></button>
+        <button class="day-selector" id="5"></button>
+        <button class="day-selector" id="6"></button>
+        <button class="day-selector" id="7"></button>
+      </nav>
+      <section class="drag-and-drop-hint">
+        <p class="drag-and-drop-label">Drag and Drop to Rearrange Widgets</p>
+      </section>
+      <section class="widget-area">
+        <section class="info-area container" id="infoArea">
+          <div class="widget draggable" id="infoCard" draggable="true">
+            <article id="info"></article>
+            <div id="friends">
+              <h1 id="friendsHeader">Friends</h1>
+            </div>
+          </div>
+        </section>
+        <section class="sleep-area container" id="sleepArea">
+          <div class="sleep-widget-pair draggable" id="sleepSection" draggable="true">
+            <div class="widget" id="sleepAveragesWidget">
+              <h1 id="averageSleepTitle">Average Sleep Stats</h1>
+              <section class="sleep-titles">
+                <h2>Avg Hours Slept</h2>
+                <h2>Avg Sleep Quality</h2>
+              </section>
+              <div class="meter-container" id="meter-container-avg">
+                <div class="sleep-meter" id="sleepHoursMeterAverage">
+                  <div class="sleep-data" id="sleepHoursAverage">0</div>
+                </div>
+                <div class="sleep-meter" id="sleepQualityMeterAverage">
+                  <div class="sleep-data" id="sleepQualityAverage">0</div>
+                </div>
+              </div>
+            </div>
+            <div class="widget" id="sleepWidget">
+              <h1 id="dateSleepTitle"></h1>
+              <section class="sleep-titles">
+                <h2>Hours Slept</h2>
+                <h2>Sleep Quality</h2>
+              </section>
+              <div class="meter-container">
+                <div class="sleep-meter" id="sleepHoursMeter">
+                  <div class="sleep-data" id="sleepHours">0</div>
+                </div>
+                <div class="sleep-meter" id="sleepQualityMeter">
+                  <div class="sleep-data" id="sleepQuality">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="hydration-area container" id="hydrationArea">
+          <div class="widget draggable" id="hydrationWidget" draggable="true">
+            <button class="input-hydration">Add Hydration</button>
+            <p class="pop-up-error"></p>
+            <section class="visual-label" id="hydrationBottleLabel">
+              <h1 id="dateHydrationTitle"></h1>
+            </section>
+            <section class="visual" id="hydrationVisual">
+              <div id="waterMeterContainer">
+                <canvas id="waterMeter"></canvas>
+              </div>
+            </section>
+          </div>
+          <div class="pop-up-form">
+            <form class="widget" id="hydrationForm">
+              <h2 class="hydration-form">Add Hydration!</h2>
+              <p class="form-error"></p>
+              <label for="dateInput">Date</label>
+              <input type="date" name="dateInput" id="dateInput">
+              <label for="ozDrank">Oz Drank</label>
+              <input type="number" name="ozDrank" id="ozDrank" min="0" max="100">
+              <aside>
+                <button type="submit" class="formBtn">Add</button>
+                <button class="closeBtn">Close</button>
+              </aside>
+            </form>
+          </div>
+        </section>
+        <img
+          class="drag-drop-icon"
+          id="dragAndDrop1"
+          src="./images/drag-drop-icon.svg"
+          alt="drag and drop icon"
+        />
+        <img
+          class="drag-drop-icon"
+          id="dragAndDrop2"
+          src="./images/drag-drop-icon.svg"
+          alt="drag and drop icon"
+        />
+      </section>
+    </section>
+    <script src="bundle.js"></script>
+  </body>
+</html>
