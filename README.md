@@ -26,8 +26,7 @@ Additional enhancements could include:
 
 ## Preview of App
 
-![animated 2](https://github.com/dkwon1223/fitlit/assets/147420318/02437f0e-2af6-45dd-aacf-0a8ba449f047)
-
+![FitLit](https://github.com/corysanders3/fitlit/assets/41808895/be8f729b-8e11-471d-9d27-c3bb937d09f1)
 
 ## Set Up
 
