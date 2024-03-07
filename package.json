@@ -5,9 +5,9 @@
   "main": "domUpdates.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkwon1223/fitlit.git"
+    "url": "git+https://github.com/corysanders3/fitlit.git"
   },
-  "homepage": "https://dkwon1223.github.io/fitlit",
+  "homepage": "https://corysanders3.github.io/fitlit",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",

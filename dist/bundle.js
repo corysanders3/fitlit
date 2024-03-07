@@ -317,7 +317,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body,\nhtml {\n  background-image: linear-gradient(to right bottom, #e3edf7, #dde7f1, #d7e1eb, #d2dce6, #ccd6e0, #ccd6e0, #ccd6e0, #ccd6e0, #d2dce6, #d7e1eb, #dde7f1, #e3edf7);\n  color: #e3edf7;\n  background-repeat: no-repeat;\n  height: 100%;\n  width: 100%;\n  margin: 0;\n  font-family: \"M PLUS Rounded 1c\", sans-serif;\n}\n\nsection,\naside,\n.main,\n.left-area,\n.info-area,\n.sleep-area,\n.widget,\n#infoCard,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n.meter-container,\n.sleep-titles {\n  display: flex;\n}\n\n#sleepWidget,\n#sleepAveragesWidget,\n#hydrationWidget,\n.left-area {\n  flex-direction: column;\n}\n\naside,\n.sleep-titles,\n.meter-container,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  justify-content: space-evenly;\n}\n\nsection,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n#hydrationWidget {\n  justify-content: center;\n  align-items: center;\n}\n\nsection,\n#hydrationBottle,\n#hydrationWidget .left-area,\n.hydration-area,\n#waterMeterContainer,\n#waterBottle {\n  height: 100%;\n}\n\n.info-area,\n.sleep-area,\n#hydrationVisual,\n#hydrationDays,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#waterMeterContainer {\n  width: 100%;\n}\n\n#info,\n#friends,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#dateSleepTitle,\n#averageSleepTitle {\n  text-align: center;\n}\n\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  height: 10%;\n}\n\n.main {\n  height: 100vh;\n  width: 100vw;\n}\n\n.left-area {\n  width: 70%;\n}\n\n.hydration-area {\n  width: 30%;\n}\n\n.info-area,\n.sleep-area {\n  height: 50%;\n}\n\n.widget {\n  height: 80%;\n  width: 90%;\n  margin: 2%;\n  padding: 1%;\n  border-radius: 3rem;\n  box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.61), -10px 10px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\n#infoCard {\n  width: 95%;\n  margin-top: 70px;\n  margin-bottom: 0;\n  flex-direction: row;\n  background-image: linear-gradient(to right bottom, #ff6968, #fe706e, #fc7675, #fb7c7b, #f98281, #f98281, #f98281, #f98281, #fb7c7b, #fc7675, #fe706e, #ff6968);\n}\n\n.icon {\n  position: absolute;\n  height: 10%;\n  width: 10%;\n}\n\n#userIcon {\n  right: 60%;\n  top: 10%;\n}\n\n#friendsIcon {\n  right: 31%;\n  top: 8%;\n}\n\n#sleepIcon1 {\n  right: 64%;\n  top: 55%;\n}\n\n#sleepIcon2 {\n  right: 30%;\n  top: 55%;\n}\n\n#hydrationIcon {\n  right: 0%;\n  top: 10%;\n}\n\n#info,\n#friends {\n  margin-top: 0;\n}\n\n#info {\n  width: 60%;\n}\n\n#friends {\n  width: 40%;\n  overflow-x: auto;\n}\n\nh1 {\n  font-size: x-large;\n  font-weight: 600;\n  margin: 2%;\n}\n\nh2 {\n  font-size: large;\n  font-weight: 700;\n  margin: none;\n}\n\nh3 {\n  font-size: medium;\n  font-weight: 700;\n  margin: 2%;\n}\n\n#hydrationWidget {\n  margin-top: 40px;\n  height: 87%;\n  background-image: linear-gradient(to right bottom, #2ac3ff, #48c7fc, #5dcbfa, #6ecef7, #7ed2f5, #7ed2f5, #7ed2f5, #7ed2f5, #6ecef7, #5dcbfa, #48c7fc, #2ac3ff);\n}\n\n#hydrationVisual {\n  height: 60%;\n}\n\n#hydrationBottleLabel {\n  margin-top: 10%;\n  margin-bottom: 10%;\n}\n\n#days {\n  position: absolute;\n  top: 0.5%;\n  width: 100vw;\n  height: 40px;\n}\n\n.day-selector {\n  height: 80%;\n  width: 10%;\n  border: none;\n  border-radius: 1rem;\n  font-family: \"M PLUS Rounded 1c\", sans-serif;\n  font-size: large;\n  font-weight: 400;\n  color: #e3edf7;\n  background-image: linear-gradient(to right bottom, #4b4b86, #50508b, #56568f, #5b5b94, #616199, #616199, #616199, #616199, #5b5b94, #56568f, #50508b, #4b4b86);\n  cursor: pointer;\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61), -5px 5px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\nbutton {\n  background-color: #466585;\n}\n\n#waterMeter {\n  height: 0;\n  width: 0;\n}\n\n#sleepWidget {\n  background-image: linear-gradient(to right bottom, #5a65ff, #636dfe, #6d76fd, #757efc, #7e86fb, #7e86fb, #7e86fb, #7e86fb, #757efc, #6d76fd, #636dfe, #5a65ff);\n}\n\n#sleepAveragesWidget {\n  background-image: linear-gradient(to right bottom, #7a55fd, #8261fb, #8b6cf9, #9276f7, #9a81f4, #9a81f4, #9a81f4, #9a81f4, #9276f7, #8b6cf9, #8261fb, #7a55fd);\n}\n\n.sleep-meter {\n  position: relative;\n  height: 10rem;\n  width: 10rem;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n}\n\n.sleep-meter:before {\n  content: \"\";\n  position: absolute;\n  height: 84%;\n  width: 84%;\n  background-color: #fff;\n  border-radius: 50%;\n}\n\n.sleep-data {\n  position: relative;\n  font-family: \"Poppins\", sans-serif;\n  font-size: 2.5rem;\n  color: purple;\n}\n\n#dateSleepTitle {\n  margin-top: -3%;\n  margin-bottom: -5%;\n}\n\n#averageSleepTitle {\n  margin-top: -2%;\n}", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;;EAEE,8JAAA;EACA,cAAA;EACA,4BAAA;EACA,YAAA;EACA,WAAA;EACA,SAAA;EACA,4CAAA;AACF;;AAEA;;;;;;;;;;;;;;EAcE,aAAA;AACF;;AAEA;;;;EAIE,sBAAA;AACF;;AAEA;;;;;;EAME,6BAAA;AACF;;AAEA;;;;;;EAME,uBAAA;EACA,mBAAA;AACF;;AAEA;;;;;;EAOE,YAAA;AAAF;;AAGA;;;;;;;EAOE,WAAA;AAAF;;AAGA;;;;;;;EAOE,kBAAA;AAAF;;AAGA;;;EAGE,WAAA;AAAF;;AAGA;EACE,aAAA;EACA,YAAA;AAAF;;AAGA;EACE,UAAA;AAAF;;AAGA;EACE,UAAA;AAAF;;AAGA;;EAEE,WAAA;AAAF;;AAGA;EACE,WAAA;EACA,UAAA;EACA,UAAA;EACA,WAAA;EACA,mBAAA;EACA,oGAAA;AAAF;;AAIA;EACE,UAAA;EACA,gBAAA;EACA,gBAAA;EACA,mBAAA;EACA,8JAAA;AADF;;AAIA;EACE,kBAAA;EACA,WAAA;EACA,UAAA;AADF;;AAIA;EACE,UAAA;EACA,QAAA;AADF;;AAIA;EACE,UAAA;EACA,OAAA;AADF;;AAIA;EACE,UAAA;EACA,QAAA;AADF;;AAIA;EACE,UAAA;EACA,QAAA;AADF;;AAIA;EACE,SAAA;EACA,QAAA;AADF;;AAIA;;EAEE,aAAA;AADF;;AAIA;EACE,UAAA;AADF;;AAIA;EACE,UAAA;EACA,gBAAA;AADF;;AAIA;EACE,kBAAA;EACA,gBAAA;EACA,UAAA;AADF;;AAIA;EACE,gBAAA;EACA,gBAAA;EACA,YAAA;AADF;;AAIA;EACE,iBAAA;EACA,gBAAA;EACA,UAAA;AADF;;AAIA;EACE,gBAAA;EACA,WAAA;EACA,8JAAA;AADF;;AAIA;EACE,WAAA;AADF;;AAIA;EACE,eAAA;EACA,kBAAA;AADF;;AAIA;EACE,kBAAA;EACA,SAAA;EACA,YAAA;EACA,YAAA;AADF;;AAIA;EACE,WAAA;EACA,UAAA;EACA,YAAA;EACA,mBAAA;EACA,4CAAA;EACA,gBAAA;EACA,gBAAA;EACA,cAAA;EACA,8JAAA;EACA,eAAA;EACA,gGAAA;AADF;;AAKA;EACE,yBAAA;AAFF;;AAKA;EACE,SAAA;EACA,QAAA;AAFF;;AAKA;EACE,8JAAA;AAFF;;AAKA;EACE,8JAAA;AAFF;;AAKA;EACE,kBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;EACA,aAAA;EACA,mBAAA;AAFF;;AAKA;EACE,WAAA;EACA,kBAAA;EACA,WAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;AAFF;;AAKA;EACE,kBAAA;EACA,kCAAA;EACA,iBAAA;EACA,aAAA;AAFF;;AAKA;EACE,eAAA;EACA,kBAAA;AAFF;;AAKA;EACE,eAAA;AAFF","sourcesContent":["body,\nhtml {\n  background-image: linear-gradient(to right bottom, #e3edf7, #dde7f1, #d7e1eb, #d2dce6, #ccd6e0, #ccd6e0, #ccd6e0, #ccd6e0, #d2dce6, #d7e1eb, #dde7f1, #e3edf7);\n  color: #e3edf7;\n  background-repeat: no-repeat;\n  height: 100%;\n  width: 100%;\n  margin: 0;\n  font-family: 'M PLUS Rounded 1c', sans-serif;\n}\n\nsection,\naside,\n.main, \n.left-area,\n.info-area,\n.sleep-area,\n.widget,\n#infoCard,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n.meter-container,\n.sleep-titles {\n  display: flex;\n}\n\n#sleepWidget,\n#sleepAveragesWidget,\n#hydrationWidget,\n.left-area {\n  flex-direction: column;\n}\n\naside,\n.sleep-titles,\n.meter-container,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  justify-content: space-evenly;\n}\n\nsection,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n#hydrationWidget {\n  justify-content: center;\n  align-items: center;\n}\n\nsection,\n#hydrationBottle,\n#hydrationWidget\n.left-area,\n.hydration-area,\n#waterMeterContainer,\n#waterBottle {\n  height: 100%;\n}\n\n.info-area,\n.sleep-area,\n#hydrationVisual,\n#hydrationDays,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#waterMeterContainer {\n  width: 100%;\n}\n\n#info,\n#friends,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#dateSleepTitle,\n#averageSleepTitle {\n  text-align: center;\n}\n\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  height: 10%;\n}\n\n.main {\n  height: 100vh;\n  width: 100vw;\n}\n\n.left-area {\n  width: 70%;\n}\n\n.hydration-area {\n  width: 30%;\n}\n\n.info-area,\n.sleep-area {\n  height: 50%;\n}\n\n.widget {\n  height: 80%;\n  width: 90%;\n  margin: 2%;\n  padding: 1%;\n  border-radius: 3rem;\n  box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.61),\n    -10px 10px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\n#infoCard {\n  width: 95%;\n  margin-top: 70px;\n  margin-bottom: 0;\n  flex-direction: row;\n  background-image: linear-gradient(to right bottom, #ff6968, #fe706e, #fc7675, #fb7c7b, #f98281, #f98281, #f98281, #f98281, #fb7c7b, #fc7675, #fe706e, #ff6968);\n}\n\n.icon {\n  position: absolute;\n  height: 10%;\n  width: 10%;\n}\n\n#userIcon {\n  right: 60%;\n  top: 10%;\n}\n\n#friendsIcon {\n  right: 31%;\n  top: 8%;\n}\n\n#sleepIcon1 {\n  right: 64%;\n  top: 55%;\n}\n\n#sleepIcon2 {\n  right: 30%;\n  top: 55%;\n}\n\n#hydrationIcon {\n  right: 0%;\n  top: 10%;\n}\n\n#info,\n#friends {\n  margin-top: 0;\n}\n\n#info {\n  width: 60%;\n}\n\n#friends {\n  width: 40%;\n  overflow-x: auto;\n}\n\nh1 {\n  font-size: x-large;\n  font-weight: 600;\n  margin: 2%;\n}\n\nh2 {\n  font-size: large;\n  font-weight: 700;\n  margin: none;\n}\n\nh3 {\n  font-size: medium;\n  font-weight: 700;\n  margin: 2%;\n}\n\n#hydrationWidget {\n  margin-top: 40px;\n  height: 87%;\n  background-image: linear-gradient(to right bottom, #2ac3ff, #48c7fc, #5dcbfa, #6ecef7, #7ed2f5, #7ed2f5, #7ed2f5, #7ed2f5, #6ecef7, #5dcbfa, #48c7fc, #2ac3ff);\n}\n\n#hydrationVisual {\n  height: 60%;\n}\n\n#hydrationBottleLabel {\n  margin-top: 10%;\n  margin-bottom: 10%;\n}\n\n#days {\n  position: absolute;\n  top: 0.5%;\n  width: 100vw;\n  height: 40px;\n}\n\n.day-selector {\n  height: 80%;\n  width: 10%;\n  border: none;\n  border-radius: 1rem;\n  font-family: \"M PLUS Rounded 1c\", sans-serif;\n  font-size: large;\n  font-weight: 400;\n  color: #e3edf7;\n  background-image: linear-gradient(to right bottom, #4b4b86, #50508b, #56568f, #5b5b94, #616199, #616199, #616199, #616199, #5b5b94, #56568f, #50508b, #4b4b86);\n  cursor: pointer;\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61),\n    -5px 5px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\nbutton {\n  background-color: #466585;\n}\n\n#waterMeter {\n  height: 0;\n  width: 0;\n}\n\n#sleepWidget {\n  background-image: linear-gradient(to right bottom, #5a65ff, #636dfe, #6d76fd, #757efc, #7e86fb, #7e86fb, #7e86fb, #7e86fb, #757efc, #6d76fd, #636dfe, #5a65ff);\n}\n\n#sleepAveragesWidget {\n  background-image: linear-gradient(to right bottom, #7a55fd, #8261fb, #8b6cf9, #9276f7, #9a81f4, #9a81f4, #9a81f4, #9a81f4, #9276f7, #8b6cf9, #8261fb, #7a55fd);\n}\n\n.sleep-meter {\n  position: relative;\n  height: 10rem;\n  width: 10rem;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n}\n\n.sleep-meter:before {\n  content: \"\";\n  position: absolute;\n  height: 84%;\n  width: 84%;\n  background-color: #fff;\n  border-radius: 50%;\n}\n\n.sleep-data {\n  position: relative;\n  font-family: \"Poppins\", sans-serif;\n  font-size: 2.5rem;\n  color: purple;\n}\n\n#dateSleepTitle {\n  margin-top: -3%;\n  margin-bottom: -5%;\n}\n\n#averageSleepTitle {\n  margin-top: -2%;\n}\n\n\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body,\nhtml {\n  background-image: linear-gradient(to right bottom, #e3edf7, #dde7f1, #d7e1eb, #d2dce6, #ccd6e0, #ccd6e0, #ccd6e0, #ccd6e0, #d2dce6, #d7e1eb, #dde7f1, #e3edf7);\n  color: #e3edf7;\n  background-repeat: no-repeat;\n  height: 100vh;\n  width: 100vw;\n  margin: 0;\n  font-family: \"M PLUS Rounded 1c\", sans-serif;\n}\n\nsection,\naside,\n.main,\n.info-area,\n.sleep-area,\n.widget,\n#infoCard,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n.meter-container,\n.sleep-titles {\n  display: flex;\n}\n\n.main,\n.sleep-area,\n#sleepWidget,\n#infoCard,\n#sleepAveragesWidget,\n#hydrationWidget {\n  flex-direction: column;\n}\n\naside,\n.sleep-titles,\n.meter-container,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  justify-content: space-evenly;\n}\n\n#meter-container-avg {\n  margin-bottom: 5%;\n}\n\nsection,\n#infoCard,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n#hydrationWidget {\n  justify-content: center;\n  align-items: center;\n}\n\nsection,\n#hydrationBottle,\n#hydrationWidget .hydration-area,\n#waterMeterContainer,\n#waterBottle {\n  height: 100%;\n}\n\n.info-area,\n.sleep-area,\n.widget-area,\n#hydrationVisual,\n#hydrationDays,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#waterMeterContainer {\n  width: 100%;\n}\n\n#info,\n#friends,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#dateSleepTitle,\n#averageSleepTitle {\n  text-align: center;\n}\n\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  height: 10%;\n}\n\n.main {\n  height: 100vh;\n  width: 100vw;\n}\n\n.widget-area {\n  height: 90%;\n}\n\n#days {\n  height: 6%;\n}\n\n.info-area,\n.sleep-area,\n.hydration-area {\n  height: 90%;\n  width: 33%;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n}\n\n.widget {\n  height: 80%;\n  width: 90%;\n  border-radius: 3rem;\n  box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.61), -10px 10px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\n#infoCard {\n  height: 100%;\n  width: 95%;\n  background-image: linear-gradient(to right bottom, #ff6968, #fe706e, #fc7675, #fb7c7b, #f98281, #f98281, #f98281, #f98281, #fb7c7b, #fc7675, #fe706e, #ff6968);\n}\n\n#info {\n  width: 60%;\n  margin-bottom: 5%;\n}\n\n#friends {\n  width: 90%;\n  overflow: auto;\n  border-top: 4px solid white;\n}\n\n::-webkit-scrollbar {\n  -webkit-appearance: none;\n  width: 10px;\n}\n\n::-webkit-scrollbar-thumb {\n  border-radius: 5px;\n  background-color: rgba(0, 0, 0, 0.5);\n  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);\n}\n\n#friendsHeader {\n  margin-bottom: 8%;\n  padding-top: 5%;\n}\n\nh1 {\n  font-size: x-large;\n  font-weight: 600;\n  margin: 2%;\n}\n\n#name {\n  font-size: 1.6rem;\n  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;\n}\n\nh2 {\n  font-size: large;\n  font-weight: 700;\n  margin: 0;\n}\n\nh3 {\n  font-size: medium;\n  font-weight: 700;\n  margin: 2%;\n}\n\n#hydrationWidget {\n  height: 100%;\n  background-image: linear-gradient(to right bottom, #2ac3ff, #48c7fc, #5dcbfa, #6ecef7, #7ed2f5, #7ed2f5, #7ed2f5, #7ed2f5, #6ecef7, #5dcbfa, #48c7fc, #2ac3ff);\n}\n\n#hydrationVisual {\n  height: 60%;\n}\n\n#hydrationBottleLabel {\n  margin-top: 10%;\n}\n\n#days {\n  width: 100vw;\n}\n\n.day-selector,\n.input-hydration,\n.save-layout-button {\n  height: 80%;\n  width: 10%;\n  border: none;\n  border-radius: 1rem;\n  font-family: \"M PLUS Rounded 1c\", sans-serif;\n  font-size: large;\n  font-weight: 400;\n  color: #e3edf7;\n  background-image: linear-gradient(to right bottom, #4b4b86, #50508b, #56568f, #5b5b94, #616199, #616199, #616199, #616199, #5b5b94, #56568f, #50508b, #4b4b86);\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61), -5px 5px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\nbutton {\n  background-color: #466585;\n  cursor: pointer;\n}\n\n#waterMeter {\n  height: 10%;\n  width: 10%;\n}\n\n#sleepWidget {\n  background-image: linear-gradient(to right bottom, #5a65ff, #636dfe, #6d76fd, #757efc, #7e86fb, #7e86fb, #7e86fb, #7e86fb, #757efc, #6d76fd, #636dfe, #5a65ff);\n  height: 55%;\n  width: 100%;\n}\n\n#sleepAveragesWidget {\n  background-image: linear-gradient(to right bottom, #7a55fd, #8261fb, #8b6cf9, #9276f7, #9a81f4, #9a81f4, #9a81f4, #9a81f4, #9276f7, #8b6cf9, #8261fb, #7a55fd);\n  height: 45%;\n  width: 100%;\n  margin-bottom: 2%;\n}\n\n.sleep-meter {\n  position: relative;\n  height: 10rem;\n  width: 10rem;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n}\n\n.sleep-meter:before {\n  content: \"\";\n  position: absolute;\n  height: 84%;\n  width: 84%;\n  background-color: #fff;\n  border-radius: 50%;\n}\n\n.sleep-data {\n  position: relative;\n  font-family: \"Poppins\", sans-serif;\n  font-size: 2.5rem;\n  color: purple;\n  filter: none;\n}\n\n#averageSleepTitle {\n  margin-top: -2%;\n}\n\n.sleep-titles {\n  height: 5%;\n  margin-bottom: 3%;\n}\n\n.sleep-widget-pair {\n  height: 100%;\n  width: 90%;\n}\n\n.input-hydration {\n  height: 5%;\n  width: 40%;\n  background: #48494B;\n  color: #fff;\n  font-weight: 500;\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61), -5px 5px 15px -1px rgba(0, 0, 0, 0.61);\n  cursor: pointer;\n}\n\n#hydrationForm {\n  background-color: #2ac3ff;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  height: 400px;\n  width: 250px;\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61), -5px 5px 15px -1px rgba(0, 0, 0, 0.61);\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.pop-up-form {\n  display: none;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  position: fixed;\n  backdrop-filter: blur(6px);\n}\n\n#hydrationForm input[type=date], #hydrationForm input[type=number] {\n  background: white;\n  width: 50%;\n  height: 30px;\n}\n\n#hydrationForm button {\n  border-radius: 10%;\n  width: 100px;\n  height: 50px;\n  border: none;\n  font-size: 20px;\n}\n\n#hydrationForm aside {\n  display: flex;\n  justify-content: space-around;\n  width: 100%;\n  align-items: center;\n}\n\n.closeBtn {\n  background-color: red;\n  color: #fff;\n}\n\n.form-error {\n  color: red;\n  font-weight: 900;\n  text-align: center;\n  margin: 0px;\n}\n\n.hydration-form {\n  margin-bottom: 0px;\n}\n\n.formBtn {\n  background-color: white;\n}\n\nlabel {\n  font-weight: 700;\n}\n\n.blur {\n  filter: blur(4px);\n}\n\n.draggable {\n  cursor: move;\n}\n\n.draggable.dragging {\n  opacity: 0.2;\n}\n\n.drag-drop-icon {\n  position: absolute;\n  height: 8%;\n  width: 8%;\n}\n\n#dragAndDrop1 {\n  top: 8%;\n  left: 30%;\n}\n\n#dragAndDrop2 {\n  top: 8%;\n  right: 30%;\n}\n\n.drag-and-drop-hint {\n  height: 4%;\n}\n\n.drag-and-drop-label {\n  color: black;\n  margin: 0;\n  font-weight: 600;\n  text-align: center;\n  padding-top: 5%;\n}\n\n.save-layout-button {\n  font-size: small;\n  height: 100%;\n  width: 60%;\n  margin-top: 2%;\n  cursor: pointer;\n}", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"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","sourcesContent":["body,\nhtml {\n  background-image: linear-gradient(to right bottom, #e3edf7, #dde7f1, #d7e1eb, #d2dce6, #ccd6e0, #ccd6e0, #ccd6e0, #ccd6e0, #d2dce6, #d7e1eb, #dde7f1, #e3edf7);\n  color: #e3edf7;\n  background-repeat: no-repeat;\n  height: 100vh;\n  width: 100vw;\n  margin: 0;\n  font-family: 'M PLUS Rounded 1c', sans-serif;\n}\n\nsection,\naside,\n.main, \n.info-area,\n.sleep-area,\n.widget,\n#infoCard,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n.meter-container,\n.sleep-titles {\n  display: flex;\n}\n\n.main,\n.sleep-area,\n#sleepWidget,\n#infoCard,\n#sleepAveragesWidget,\n#hydrationWidget {\n  flex-direction: column;\n}\n\naside,\n.sleep-titles,\n.meter-container,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  justify-content: space-evenly;\n}\n\n#meter-container-avg {\n  margin-bottom: 5%;\n}\n\nsection,\n#infoCard,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#hydrationBottle,\n#hydrationWidget {\n  justify-content: center;\n  align-items: center;\n}\n\nsection,\n#hydrationBottle,\n#hydrationWidget\n.hydration-area,\n#waterMeterContainer,\n#waterBottle {\n  height: 100%;\n}\n\n.info-area,\n.sleep-area,\n.widget-area,\n#hydrationVisual,\n#hydrationDays,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#waterMeterContainer {\n  width: 100%;\n}\n\n#info,\n#friends,\n#days,\n#hydrationDaysLabel,\n#hydrationBottleLabel,\n#dateSleepTitle,\n#averageSleepTitle {\n  text-align: center;\n}\n\n#hydrationDaysLabel,\n#hydrationBottleLabel {\n  height: 10%;\n}\n\n.main {\n  height: 100vh;\n  width: 100vw;\n}\n\n.widget-area {\n  height: 90%;\n}\n\n#days {\n  height: 6%;\n}\n\n.info-area,\n.sleep-area,\n.hydration-area {\n  height: 90%;\n  width: 33%;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n}\n\n.widget {\n  height: 80%;\n  width: 90%;\n  border-radius: 3rem;\n  box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.61),\n    -10px 10px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\n#infoCard {\n  height: 100%;\n  width: 95%;\n  background-image: linear-gradient(to right bottom, #ff6968, #fe706e, #fc7675, #fb7c7b, #f98281, #f98281, #f98281, #f98281, #fb7c7b, #fc7675, #fe706e, #ff6968);\n}\n\n#info {\n  width: 60%;\n  margin-bottom: 5%;\n}\n\n#friends {\n  width: 90%;\n  overflow: auto;\n  border-top: 4px solid white;\n}\n\n::-webkit-scrollbar {\n  -webkit-appearance: none;\n  width: 10px;\n}\n\n::-webkit-scrollbar-thumb {\n  border-radius: 5px;\n  background-color: rgba(0,0,0,.5);\n  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);\n}\n\n#friendsHeader {\n  margin-bottom: 8%;\n  padding-top: 5%;\n}\n\nh1 {\n  font-size: x-large;\n  font-weight: 600;\n  margin: 2%;\n}\n\n#name {\n  font-size: 1.6rem;\n  text-shadow:\n    -2px -2px 0 #000,\n    2px -2px 0 #000,\n    -2px 2px 0 #000,\n    2px 2px 0 #000;\n}\n\nh2 {\n  font-size: large;\n  font-weight: 700;\n  margin: 0;\n}\n\nh3 {\n  font-size: medium;\n  font-weight: 700;\n  margin: 2%;\n}\n\n#hydrationWidget {\n  height: 100%;\n  background-image: linear-gradient(to right bottom, #2ac3ff, #48c7fc, #5dcbfa, #6ecef7, #7ed2f5, #7ed2f5, #7ed2f5, #7ed2f5, #6ecef7, #5dcbfa, #48c7fc, #2ac3ff);\n}\n\n#hydrationVisual {\n  height: 60%;\n}\n\n#hydrationBottleLabel {\n  margin-top: 10%;\n}\n\n#days {\n  width: 100vw;\n}\n\n.day-selector,\n.input-hydration,\n.save-layout-button {\n  height: 80%;\n  width: 10%;\n  border: none;\n  border-radius: 1rem;\n  font-family: \"M PLUS Rounded 1c\", sans-serif;\n  font-size: large;\n  font-weight: 400;\n  color: #e3edf7;\n  background-image: linear-gradient(to right bottom, #4b4b86, #50508b, #56568f, #5b5b94, #616199, #616199, #616199, #616199, #5b5b94, #56568f, #50508b, #4b4b86);\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61),\n    -5px 5px 15px -1px rgba(255, 255, 255, 0.822);\n}\n\nbutton {\n  background-color: #466585;\n  cursor: pointer;\n}\n\n#waterMeter {\n  height: 10%;\n  width: 10%;\n}\n\n#sleepWidget {\n  background-image: linear-gradient(to right bottom, #5a65ff, #636dfe, #6d76fd, #757efc, #7e86fb, #7e86fb, #7e86fb, #7e86fb, #757efc, #6d76fd, #636dfe, #5a65ff);\n  height: 55%;\n  width: 100%;\n  \n}\n\n#sleepAveragesWidget {\n  background-image: linear-gradient(to right bottom, #7a55fd, #8261fb, #8b6cf9, #9276f7, #9a81f4, #9a81f4, #9a81f4, #9a81f4, #9276f7, #8b6cf9, #8261fb, #7a55fd);\n  height: 45%;\n  width: 100%;\n  margin-bottom: 2%;\n}\n\n.sleep-meter {\n  position: relative;\n  height: 10rem;\n  width: 10rem;\n  border-radius: 50%;\n  display: grid;\n  place-items: center;\n}\n\n.sleep-meter:before {\n  content: \"\";\n  position: absolute;\n  height: 84%;\n  width: 84%;\n  background-color: #fff;\n  border-radius: 50%;\n}\n\n.sleep-data {\n  position: relative;\n  font-family: \"Poppins\", sans-serif;\n  font-size: 2.5rem;\n  color: purple;\n  filter: none;\n}\n\n#averageSleepTitle {\n  margin-top: -2%;\n}\n\n.sleep-titles {\n  height: 5%;\n  margin-bottom: 3%;\n}\n\n.sleep-widget-pair {\n  height: 100%;\n  width: 90%;\n}\n\n.input-hydration{\n  height: 5%;\n  width: 40%;\n  background: #48494B;\n  color: #fff;\n  font-weight:500;\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61),\n    -5px 5px 15px -1px rgba(0, 0, 0, 0.61);\n  cursor: pointer;\n}\n\n#hydrationForm {\n  background-color: #2ac3ff;\n  display:flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  height:400px;\n  width:250px;\n  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.61),\n    -5px 5px 15px -1px rgba(0, 0, 0, 0.61);\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n\n.pop-up-form {\n  display: none;\n  width:100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  position: fixed;\n  backdrop-filter: blur(6px);\n}\n\n#hydrationForm input[type=date], #hydrationForm input[type=number]{\n  background:white;\n  width:50%;\n  height:30px;\n}\n\n#hydrationForm button {\n  border-radius: 10%;\n  width:100px;\n  height:50px;\n  border:none;\n  font-size: 20px;\n}\n\n#hydrationForm aside {\n  display:flex;\n  justify-content: space-around;\n  width:100%;\n  align-items: center;\n}\n\n.closeBtn {\n  background-color:red;\n  color: #fff;\n}\n\n.form-error {\n  color: red;\n  font-weight: 900;\n  text-align: center;\n  margin: 0px;\n}\n\n.hydration-form {\n  margin-bottom: 0px;\n}\n\n.formBtn{\n  background-color:white;\n}\n\nlabel{\n  font-weight:700;\n}\n\n.blur {\n  filter: blur(4px);\n}\n\n.draggable {\n  cursor: move;\n}\n\n.draggable.dragging {\n  opacity: 0.2;\n}\n\n.drag-drop-icon {\n  position: absolute;\n  height: 8%;\n  width: 8%;\n}\n\n#dragAndDrop1 {\n  top: 8%;\n  left: 30%;\n}\n\n#dragAndDrop2 {\n  top: 8%;\n  right: 30%;\n}\n\n.drag-and-drop-hint{\n  height: 4%;\n}\n\n.drag-and-drop-label {\n  color: black;\n  margin: 0;\n  font-weight: 600;\n  text-align: center;\n  padding-top: 5%;\n}\n\n.save-layout-button {\n  font-size: small;\n  height: 100%;\n  width: 60%;\n  margin-top: 2%;\n  cursor: pointer;\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -480,166 +480,46 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   updateUserInfo: () => (/* binding */ updateUserInfo)
+/* harmony export */   fetchHydrationData: () => (/* binding */ fetchHydrationData),
+/* harmony export */   fetchSleepData: () => (/* binding */ fetchSleepData),
+/* harmony export */   fetchUserData: () => (/* binding */ fetchUserData),
+/* harmony export */   postHydrationData: () => (/* binding */ postHydrationData)
 /* harmony export */ });
-/* harmony import */ var _apiCalls__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
-/* harmony import */ var fluid_meter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(12);
-/* harmony import */ var _users__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(21);
-/* harmony import */ var _hydration__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(22);
-/* harmony import */ var _sleep__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(23);
-
-
-
-
-
-
-const info = document.querySelector("#info");
-const friendsList = document.querySelector("#friends");
-const waterMeter = document.querySelector("#waterMeterContainer");
-const userHydrationDate = document.querySelector("#dateHydrationTitle");
-const dayButtons = document.querySelector("#days");
-const sleepHoursMeter = document.querySelector("#sleepHoursMeter");
-const sleepHours = document.querySelector("#sleepHours");
-const sleepQualityMeter = document.querySelector("#sleepQualityMeter");
-const sleepQuality = document.querySelector("#sleepQuality");
-const userSleepTitle = document.querySelector("#dateSleepTitle");
-const sleepAverageTitle = document.querySelector("#averageSleepTitle");
-const sleepHoursMeterAvg = document.querySelector("#sleepHoursMeterAverage");
-const sleepHoursAvg = document.querySelector("#sleepHoursAverage");
-const sleepQualityMeterAvg = document.querySelector(
-  "#sleepQualityMeterAverage"
-);
-const sleepQualityAvg = document.querySelector("#sleepQualityAverage");
-
-let user, hydration, sleep, today, flOzDays, userSleepInfo, sleepDay;
-
-Promise.all([(0,_apiCalls__WEBPACK_IMPORTED_MODULE_0__.fetchHydrationData)(), (0,_apiCalls__WEBPACK_IMPORTED_MODULE_0__.fetchUserData)(), (0,_apiCalls__WEBPACK_IMPORTED_MODULE_0__.fetchSleepData)()]).then(
-  ([hydrationFetch, usersData, sleepFetch]) => {
-    sleep = sleepFetch;
-    hydration = hydrationFetch;
-    const randomIndex =
-      Math.floor(Math.random() * (usersData.users.length - 1)) + 1;
-    user = (0,_users__WEBPACK_IMPORTED_MODULE_2__.getUserData)(randomIndex, usersData.users);
-    let avgStep = (0,_users__WEBPACK_IMPORTED_MODULE_2__.getAverageSteps)(usersData.users);
-    flOzDays = (0,_hydration__WEBPACK_IMPORTED_MODULE_3__.getFluidOunceForWeek)(user.id, hydration.hydrationData);
-    today = flOzDays.length - 1;
-    userSleepInfo = (0,_sleep__WEBPACK_IMPORTED_MODULE_4__.getHoursSleptWeek)(user.id, sleep);
-    sleepDay = userSleepInfo.length - 1;
-    updateButtonsDate(flOzDays);
-    updateUserInfo(avgStep);
-    updateHoursSlept(user, sleepDay);
-    updateSleepQuality(user, sleepDay);
-    updateSleepAverages(user);
-  }
-);
-
-let createdWaterMeter = new fluid_meter__WEBPACK_IMPORTED_MODULE_1__.CircularFluidMeter(waterMeter, {
-  borderWidth: 15,
-  maxProgress: 100,
-  initialProgress: 0,
-  backgroundColor: "#002d59",
-  borderColor: "#3e4954",
-  bubbleColor: "#6bcfff",
-  fontFamily: "'M PLUS Rounded 1c', sans-serif",
-  fontSize: 34,
-  progressFormatter: (value) => {
-    return `${value.toFixed(0)} fl oz`;
-  },
-  fluidConfiguration: {
-    color: "#1e90ff",
-  },
-});
-
-function updateUserInfo(avgStep) {
-  info.innerHTML = `<h1 id="name">Welcome: ${user.name}</h1>
-  <h3 id="userID">ID: ${user.id} </h3>
-  <h3 id="address">Address: ${user.address} </h3>
-  <h3 id="emailAddress">Email: ${user.email} </h3>
-  <h3 id="strideLength">Stride Length: ${user.strideLength}</h3>
-  <h3 id="stepGoal">My Step Goal: ${user.dailyStepGoal} steps</h3>
-  <h3 id="comparedStepGoal"> Avg Step Goal: ${avgStep} steps`;
-  updateFriendsList(user.friends);
-  updateHydration(user, today);
+function fetchUserData(usersData) {
+  return fetch("http://localhost:3001/api/v1/users")
+    .then((response) => response.json())
+    .then((data) => (usersData = data));
+}
+function fetchHydrationData(hydration) {
+  return fetch("http://localhost:3001/api/v1/hydration")
+    .then((repsonse) => repsonse.json())
+    .then((data) => (hydration = data));
 }
 
-function updateFriendsList(friends) {
-  friends.forEach((friend) => {
-    friendsList.insertAdjacentHTML(
-      "beforeend",
-      `<aside>
-        <h3>${friend.name}</h3>
-        <h3>Step Goal: ${friend.dailyStepGoal}</h3>
-        </aside>`
-    );
-  });
+function fetchSleepData(sleep) {
+  return fetch("http://localhost:3001/api/v1/sleep")
+    .then((repsonse) => repsonse.json())
+    .then((data) => (sleep = data));
 }
 
-function updateHydration(user, day = 0) {
-  const userHydration = (0,_hydration__WEBPACK_IMPORTED_MODULE_3__.getFluidOunceForDay)(
-    user.id,
-    hydration.hydrationData,
-    flOzDays[day].date
-  );
-  userHydrationDate.innerHTML = `<h1>Water Consumption</h1><h3>${userHydration.date}</h3>`;
-  createdWaterMeter.progress = userHydration.numOunces;
-}
-
-dayButtons.addEventListener("click", (event) => {
-  let button = event.target.closest("button");
-  console.log(button);
-  if (!flOzDays[today - Number(button.id)]) {
-    userHydrationDate.innerHTML = `<h1>No Data to Display...</h1>`;
-    createdWaterMeter.progress = 0;
-  } else {
-    updateHydration(user, today - Number(button.id));
-    updateHoursSlept(user, sleepDay - Number(button.id));
-    updateSleepQuality(user, sleepDay - Number(button.id));
-  }
-});
-
-function updateHoursSlept(user, day) {
-  const userSleepHours = (0,_sleep__WEBPACK_IMPORTED_MODULE_4__.getHoursSlept)(user.id, sleep, userSleepInfo[day].date);
-  userSleepTitle.innerHTML = `<h1>Daily Sleep Stats</h1><h3>${userSleepInfo[day].date}</h3>`;
-  sleepProgressBar(userSleepHours, sleepHours, sleepHoursMeter, 12);
-}
-
-function updateSleepQuality(user, day) {
-  const userSleepQuality = (0,_sleep__WEBPACK_IMPORTED_MODULE_4__.getSleepQuality)(
-    user.id,
-    sleep,
-    userSleepInfo[day].date
-  );
-  sleepProgressBar(userSleepQuality, sleepQuality, sleepQualityMeter, 5);
-}
-
-function sleepProgressBar(hours, type, meter, cap) {
-  type.innerText = `${hours}`;
-  meter.style.background = `conic-gradient(
-    #00008B ${(hours / cap) * 360}deg,
-    #89CFF0 ${(hours / cap) * 360}deg
-  )`;
-}
-
-function updateSleepAverages(user) {
-  const userSleepAvgHours = (0,_sleep__WEBPACK_IMPORTED_MODULE_4__.getAverageHoursSleptNet)(user.id, sleep);
-  const userSleepAvgQuality = (0,_sleep__WEBPACK_IMPORTED_MODULE_4__.getAverageSleepQualityNet)(user.id, sleep);
-  sleepAverageTitle.innerHTML = `<h1>Average Sleep Stats</h1>`;
-  sleepProgressBar(userSleepAvgHours, sleepHoursAvg, sleepHoursMeterAvg, 12);
-  sleepProgressBar(
-    userSleepAvgQuality,
-    sleepQualityAvg,
-    sleepQualityMeterAvg,
-    5
-  );
-}
-
-function updateButtonsDate(dates) {
-  const days = document.querySelectorAll(".day-selector");
-  let count = 0;
-  days.forEach((day) => {
-    day.innerText = dates[today - count].date;
-    count++;
-  });
+function postHydrationData(date, numOunces, userID) {
+  fetch("http://localhost:3001/api/v1/hydration", {
+    method: 'POST',
+    body: JSON.stringify({
+      date,
+      numOunces,
+      userID
+    }),
+    headers: { 'Content-Type': 'application/json' }
+  })
+  .then(response => {
+    if(!response.ok) {
+      throw new Error("There was an issue adding your hydration details. Please try again later.")
+    }
+    return response.json();
+  })
+  .then(data => data)
+  .catch(error => popUpError.innerText = error.message)
 }
 
 
@@ -647,33 +527,16 @@ function updateButtonsDate(dates) {
 
 /***/ }),
 /* 11 */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   fetchHydrationData: () => (/* binding */ fetchHydrationData),
-/* harmony export */   fetchSleepData: () => (/* binding */ fetchSleepData),
-/* harmony export */   fetchUserData: () => (/* binding */ fetchUserData)
-/* harmony export */ });
-function fetchUserData(usersData) {
-  return fetch("https://fitlit-api.herokuapp.com/api/v1/users")
-    .then((response) => response.json())
-    .then((data) => (usersData = data));
-}
-function fetchHydrationData(hydration) {
-  return fetch("https://fitlit-api.herokuapp.com/api/v1/hydration")
-    .then((repsonse) => repsonse.json())
-    .then((data) => (hydration = data));
-}
-
-function fetchSleepData(sleep) {
-  return fetch("https://fitlit-api.herokuapp.com/api/v1/sleep")
-    .then((repsonse) => repsonse.json())
-    .then((data) => (sleep = data));
-}
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
-
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Speed = exports.CircularFluidMeter = void 0;
+const CircularFluidMeter_1 = __webpack_require__(12);
+Object.defineProperty(exports, "CircularFluidMeter", ({ enumerable: true, get: function () { return CircularFluidMeter_1.CircularFluidMeter; } }));
+const FluidLayer_1 = __webpack_require__(16);
+Object.defineProperty(exports, "Speed", ({ enumerable: true, get: function () { return FluidLayer_1.Speed; } }));
+//# sourceMappingURL=index.js.map
 
 /***/ }),
 /* 12 */
@@ -681,27 +544,14 @@ function fetchSleepData(sleep) {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Speed = exports.CircularFluidMeter = void 0;
-const CircularFluidMeter_1 = __webpack_require__(13);
-Object.defineProperty(exports, "CircularFluidMeter", ({ enumerable: true, get: function () { return CircularFluidMeter_1.CircularFluidMeter; } }));
-const FluidLayer_1 = __webpack_require__(17);
-Object.defineProperty(exports, "Speed", ({ enumerable: true, get: function () { return FluidLayer_1.Speed; } }));
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 13 */
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CircularFluidMeter = void 0;
-const BaseMeter_1 = __webpack_require__(14);
-const BubblesLayer_1 = __webpack_require__(15);
-const FluidLayer_1 = __webpack_require__(17);
-const ColorUtils_1 = __webpack_require__(18);
-const CircularFluidMeterConfig_1 = __webpack_require__(19);
-const ResponsiveUtils_1 = __webpack_require__(20);
-const MathUtils_1 = __webpack_require__(16);
+const BaseMeter_1 = __webpack_require__(13);
+const BubblesLayer_1 = __webpack_require__(14);
+const FluidLayer_1 = __webpack_require__(16);
+const ColorUtils_1 = __webpack_require__(17);
+const CircularFluidMeterConfig_1 = __webpack_require__(18);
+const ResponsiveUtils_1 = __webpack_require__(19);
+const MathUtils_1 = __webpack_require__(15);
 class CircularFluidMeter extends BaseMeter_1.BaseMeter {
     constructor(container, config) {
         super(container);
@@ -1330,7 +1180,7 @@ exports.CircularFluidMeter = CircularFluidMeter;
 //# sourceMappingURL=CircularFluidMeter.js.map
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1447,13 +1297,13 @@ exports.BaseMeter = BaseMeter;
 //# sourceMappingURL=BaseMeter.js.map
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.BubblesLayer = void 0;
-const MathUtils_1 = __webpack_require__(16);
+const MathUtils_1 = __webpack_require__(15);
 class BubblesLayer {
     constructor() {
         Object.defineProperty(this, "bubbles", {
@@ -1660,7 +1510,7 @@ class BubbleParticle {
 //# sourceMappingURL=BubblesLayer.js.map
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1678,13 +1528,13 @@ exports.random = random;
 //# sourceMappingURL=MathUtils.js.map
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Speed = exports.FluidLayerHelper = void 0;
-const ColorUtils_1 = __webpack_require__(18);
+const ColorUtils_1 = __webpack_require__(17);
 var Speed;
 (function (Speed) {
     Speed[Speed["SLOW"] = 0] = "SLOW";
@@ -1793,7 +1643,7 @@ exports.FluidLayerHelper = FluidLayerHelper;
 //# sourceMappingURL=FluidLayer.js.map
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1906,13 +1756,13 @@ exports.ColorUtils = ColorUtils;
 //# sourceMappingURL=ColorUtils.js.map
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.defaultConfig = void 0;
-const FluidLayer_1 = __webpack_require__(17);
+const FluidLayer_1 = __webpack_require__(16);
 const defaultConfig = {
     initialProgress: 0,
     maxProgress: 100,
@@ -1943,7 +1793,7 @@ exports.defaultConfig = defaultConfig;
 //# sourceMappingURL=CircularFluidMeterConfig.js.map
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1977,7 +1827,7 @@ const breakPointCompare = (b1, b2) => {
 //# sourceMappingURL=ResponsiveUtils.js.map
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -2010,7 +1860,7 @@ function getAverageSteps(users) {
 
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -2055,7 +1905,7 @@ function getFluidOunceForWeek(userID, hydrationData) {
 
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -2209,7 +2059,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_sleep_icon_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var _images_hydration_icon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8);
 /* harmony import */ var _images_friends_icon_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9);
-/* harmony import */ var _domUpdates__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(10);
+/* harmony import */ var _apiCalls__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(10);
+/* harmony import */ var fluid_meter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
+/* harmony import */ var _users__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(20);
+/* harmony import */ var _hydration__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(21);
+/* harmony import */ var _sleep__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(22);
 
 
 
@@ -2219,6 +2073,306 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+const info = document.querySelector("#info");
+const friendsList = document.querySelector("#friends");
+const waterMeter = document.querySelector("#waterMeterContainer");
+const userHydrationDate = document.querySelector("#dateHydrationTitle");
+const dayButtons = document.querySelector("#days");
+const sleepHoursMeter = document.querySelector("#sleepHoursMeter");
+const sleepHours = document.querySelector("#sleepHours");
+const sleepQualityMeter = document.querySelector("#sleepQualityMeter");
+const sleepQuality = document.querySelector("#sleepQuality");
+const userSleepTitle = document.querySelector("#dateSleepTitle");
+const sleepAverageTitle = document.querySelector("#averageSleepTitle");
+const sleepHoursMeterAvg = document.querySelector("#sleepHoursMeterAverage");
+const sleepHoursAvg = document.querySelector("#sleepHoursAverage");
+const sleepQualityMeterAvg = document.querySelector(
+  "#sleepQualityMeterAverage"
+);
+const sleepQualityAvg = document.querySelector("#sleepQualityAverage");
+const addHydrationButton = document.querySelector(".input-hydration");
+const popUpForm = document.querySelector(".pop-up-form");
+const closeFormButton = document.querySelector(".closeBtn");
+const dateInput = document.querySelector("#dateInput");
+const ozInput = document.querySelector("#ozDrank");
+const submitButton = document.querySelector(".formBtn");
+const formError = document.querySelector(".form-error");
+const draggables = document.querySelectorAll(".draggable");
+const containers = document.querySelectorAll(".container");
+const sleepMeters = document.querySelectorAll(".sleep-meter");
+
+let containerPositions = {};
+let user, hydration, sleep, today, flOzDays, userSleepInfo, currentPostion;
+let createdWaterMeter = new fluid_meter__WEBPACK_IMPORTED_MODULE_6__.CircularFluidMeter(waterMeter, {
+  borderWidth: 15,
+  maxProgress: 100,
+  initialProgress: 0,
+  backgroundColor: "#002d59",
+  borderColor: "#3e4954",
+  bubbleColor: "#6bcfff",
+  fontFamily: "'M PLUS Rounded 1c', sans-serif",
+  fontSize: 34,
+  progressFormatter: (value) => {
+    return `${value.toFixed(0)} fl oz`;
+  },
+  fluidConfiguration: {
+    color: "#1e90ff",
+  },
+});
+
+window.addEventListener("load", function () {
+  if (!user) {
+    updatePage();
+  } else {
+    updatePage(user.id);
+  }
+});
+
+dayButtons.addEventListener("click", (event) => {
+  let button = event.target.closest("button");
+
+  if (!flOzDays[today - Number(button.id)]) {
+    userHydrationDate.innerHTML = `<h1>No Data to Display...</h1>`;
+    createdWaterMeter.progress = 0;
+  } else {
+    updateHydration(user, today - Number(button.id));
+    updateHoursSlept(user, today - Number(button.id));
+    updateSleepQuality(user, today - Number(button.id));
+  }
+});
+
+submitButton.addEventListener("click", () => {
+  if (ozInput.value.length > 0 && dateInput.value.length > 0) {
+    closeForm();
+    let date = dateInput.value.split("-").join("/");
+    (0,_apiCalls__WEBPACK_IMPORTED_MODULE_5__.postHydrationData)(date, ozInput.value, user.id);
+  } else if (ozInput.value.trim().length === 0 && dateInput.value.length > 0) {
+    event.preventDefault();
+    formError.innerText = "Please enter Oz Drank...";
+  } else if (ozInput.value.trim().length > 0 && dateInput.value.length === 0) {
+    event.preventDefault();
+    formError.innerText = "Please select a date...";
+  } else {
+    event.preventDefault();
+    formError.innerText = "You need to select a date and enter Oz Drank!";
+  }
+});
+
+addHydrationButton.addEventListener("click", openForm);
+
+closeFormButton.addEventListener("click", closeForm);
+
+function updatePage() {
+  Promise.all([(0,_apiCalls__WEBPACK_IMPORTED_MODULE_5__.fetchHydrationData)(), (0,_apiCalls__WEBPACK_IMPORTED_MODULE_5__.fetchUserData)(), (0,_apiCalls__WEBPACK_IMPORTED_MODULE_5__.fetchSleepData)()]).then(
+    ([hydrationFetch, usersData, sleepFetch]) => {
+      sleep = sleepFetch;
+      hydration = hydrationFetch;
+      let avgStep = (0,_users__WEBPACK_IMPORTED_MODULE_7__.getAverageSteps)(usersData.users);
+      user = userGrabber(usersData);
+      getPositions();
+      flOzDays = getDays(user.id, hydration.hydrationData);
+      today = flOzDays.length - 1;
+      userSleepInfo = (0,_sleep__WEBPACK_IMPORTED_MODULE_9__.getHoursSleptWeek)(user.id, sleep);
+      updateButtonsDate(flOzDays);
+      updateUserInfo(avgStep);
+      updateSleepAverages(user);
+      updateHoursSlept(user, today);
+      updateSleepQuality(user, today);
+    }
+  );
+}
+
+function getPositions() {
+  if (sessionStorage.getItem("user")) {
+    containers.forEach((container) => {
+      let position = JSON.parse(sessionStorage.getItem('containerPositions')) || [];
+      let positionKeys = Object.keys(position)
+      positionKeys.forEach((key) => {
+        if(container.id === key)
+        container.appendChild(document.getElementById(position[key]))
+      });
+    });
+  }
+}
+
+function getDays(id, hydration) {
+  let flOzDays1 = (0,_hydration__WEBPACK_IMPORTED_MODULE_8__.getFluidOunceForWeek)(id, hydration).map((day) => {
+    return {
+      date: new Date(day.date),
+      ounces: day.ounces,
+    };
+  });
+  flOzDays1.sort((a, b) => {
+    return a.date - b.date;
+  });
+  let flOzDays2 = flOzDays1.map((day) => {
+    return {
+      date: day.date.toISOString().split("T")[0].replaceAll("-", "/"),
+      ounces: day.ounces,
+    };
+  });
+  return flOzDays2;
+}
+
+function userGrabber(usersData) {
+  let index;
+  if (sessionStorage.getItem("user")) {
+    index = parseInt(sessionStorage.getItem("user"));
+  } else {
+    index = getUserIndex(usersData);
+  }
+  let currentUser = (0,_users__WEBPACK_IMPORTED_MODULE_7__.getUserData)(index, usersData.users);
+  return currentUser;
+}
+
+function getUserIndex(usersData) {
+  return Math.floor(Math.random() * (usersData.users.length - 1)) + 1;
+}
+
+function updateUserInfo(avgStep) {
+  info.innerHTML = `<h1 id="name">Welcome: ${user.name}</h1>
+  <h2 id="userID">ID: ${user.id} </h2>
+  <h2 id="address">Address: ${user.address} </h2>
+  <h2 id="emailAddress">Email: ${user.email} </h2>
+  <h2 id="strideLength">Stride Length: ${user.strideLength}</h2>
+  <h2 id="stepGoal">My Step Goal: ${user.dailyStepGoal} steps</h2>
+  <h2 id="comparedStepGoal"> Avg Step Goal: ${avgStep} steps</h2>`;
+  updateFriendsList(user.friends);
+  updateHydration(user, today);
+}
+
+function updateFriendsList(friends) {
+  friendsList.innerHTML = '<h1 id="friendsHeader">Friends</h1>';
+  friends.forEach((friend) => {
+    friendsList.insertAdjacentHTML(
+      "beforeend",
+      `<aside>
+        <h2>${friend.name}</h2>
+        <h2>Step Goal: ${friend.dailyStepGoal}</h2>
+      </aside>`
+    );
+  });
+}
+
+function updateHydration(user, day = 0) {
+  const userHydration = (0,_hydration__WEBPACK_IMPORTED_MODULE_8__.getFluidOunceForDay)(
+    user.id,
+    hydration.hydrationData,
+    flOzDays[day].date
+  );
+  userHydrationDate.innerHTML = `<h1>Water Consumption</h1><h2>${userHydration.date}</h2>`;
+  createdWaterMeter.progress = userHydration.numOunces;
+}
+
+function updateHoursSlept(user, day) {
+  if (!userSleepInfo[day]) {
+    userSleepTitle.innerHTML = `<h1>Daily Sleep Stats</h1><h2>No Sleep Data For ${flOzDays[day].date}</h2>`;
+    sleepProgressBar(0, sleepHours, sleepHoursMeter, 12);
+  } else {
+    const userSleepHours = (0,_sleep__WEBPACK_IMPORTED_MODULE_9__.getHoursSlept)(
+      user.id,
+      sleep,
+      userSleepInfo[day].date
+    );
+    userSleepTitle.innerHTML = `<h1>Daily Sleep Stats</h1><h2>${userSleepInfo[day].date}</h2>`;
+    sleepProgressBar(userSleepHours, sleepHours, sleepHoursMeter, 12);
+  }
+}
+
+function updateSleepQuality(user, day) {
+  if (!userSleepInfo[day]) {
+    sleepProgressBar(0, sleepQuality, sleepQualityMeter, 5);
+  } else {
+    const userSleepQuality = (0,_sleep__WEBPACK_IMPORTED_MODULE_9__.getSleepQuality)(
+      user.id,
+      sleep,
+      userSleepInfo[day].date
+    );
+    sleepProgressBar(userSleepQuality, sleepQuality, sleepQualityMeter, 5);
+  }
+}
+
+function sleepProgressBar(hours, type, meter, cap) {
+  type.innerText = `${hours}`;
+  meter.style.background = `conic-gradient(
+    #00008B ${(hours / cap) * 360}deg,
+    #89CFF0 ${(hours / cap) * 360}deg
+  )`;
+}
+
+function updateSleepAverages(user) {
+  const userSleepAvgHours = (0,_sleep__WEBPACK_IMPORTED_MODULE_9__.getAverageHoursSleptNet)(user.id, sleep);
+  const userSleepAvgQuality = (0,_sleep__WEBPACK_IMPORTED_MODULE_9__.getAverageSleepQualityNet)(user.id, sleep);
+  sleepAverageTitle.innerHTML = `<h1>Average Sleep Stats</h1>`;
+  sleepProgressBar(userSleepAvgHours, sleepHoursAvg, sleepHoursMeterAvg, 12);
+  sleepProgressBar(
+    userSleepAvgQuality,
+    sleepQualityAvg,
+    sleepQualityMeterAvg,
+    5
+  );
+}
+
+function updateButtonsDate(dates) {
+  const days = document.querySelectorAll(".day-selector");
+  let count = 0;
+  days.forEach((day) => {
+    day.innerText = dates[today - count].date;
+    count++;
+  });
+}
+
+function openForm() {
+  popUpForm.style.display = "block";
+  sleepMeters.forEach((meter) => {
+    meter.style.filter = "blur(6px)";
+  });
+}
+
+function closeForm() {
+  sessionStorage.setItem("user", user.id);
+  popUpForm.style.display = "none";
+  sleepMeters.forEach((meter) => {
+    meter.style.filter = "none";
+  });
+}
+
+draggables.forEach((draggable) => {
+  draggable.addEventListener("dragstart", () => {
+    draggable.classList.add("dragging");
+  });
+
+  draggable.addEventListener("dragend", () => {
+    draggable.classList.remove("dragging");
+
+    if(sessionStorage.getItem("user")) {
+      containers.forEach((container) => {
+        let newPosition = Array.from(container.children).map((element) => element.id);
+        containerPositions[container.id] = newPosition
+      })
+      sessionStorage.setItem('containerPositions', JSON.stringify(containerPositions))
+    }
+  });
+});
+
+containers.forEach((container) => {
+  container.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    let draggable = document.querySelector(".dragging");
+    if(draggable) {
+      let fromContainer = draggable.parentNode;
+      if(fromContainer !== container) {
+        let tgt = e.currentTarget.firstElementChild
+        if(tgt) {
+          fromContainer.replaceChild(tgt, draggable)
+          container.appendChild(draggable)
+        }
+      }
+    }
+  });
+})
 
 
 })();
