@@ -34,7 +34,7 @@ Additional enhancements could include:
 2. Clone your own local version of the repository
 3. Run `npm install` to install project dependencies
 4. Run `npm start` to start the server
-5. You will also need to run the backend server. That repository can be found [here](https://github.com/turingschool-examples/fitlit-api).
+5. You will also need to run the backend server. That repository can be found [here](https://github.com/corysanders3/fitlit-api).
 6. Clone a local version of the repo in step 5.
 7. CD into that directory and run `npm install` to install project dependencies
 8. Run `npm start` to start that server
