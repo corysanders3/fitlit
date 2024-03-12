@@ -38,9 +38,7 @@ const userSleepTitle = document.querySelector("#dateSleepTitle");
 const sleepAverageTitle = document.querySelector("#averageSleepTitle");
 const sleepHoursMeterAvg = document.querySelector("#sleepHoursMeterAverage");
 const sleepHoursAvg = document.querySelector("#sleepHoursAverage");
-const sleepQualityMeterAvg = document.querySelector(
-  "#sleepQualityMeterAverage"
-);
+const sleepQualityMeterAvg = document.querySelector("#sleepQualityMeterAverage");
 const sleepQualityAvg = document.querySelector("#sleepQualityAverage");
 const addHydrationButton = document.querySelector(".input-hydration");
 const popUpForm = document.querySelector(".pop-up-form");
@@ -51,7 +49,6 @@ const submitButton = document.querySelector(".formBtn");
 const formError = document.querySelector(".form-error");
 const draggables = document.querySelectorAll(".draggable");
 const containers = document.querySelectorAll(".container");
-const sleepMeters = document.querySelectorAll(".sleep-meter");
 
 let containerPositions = {};
 let user, hydration, sleep, today, flOzDays, userSleepInfo, currentPostion;
@@ -73,11 +70,7 @@ let createdWaterMeter = new CircularFluidMeter(waterMeter, {
 });
 
 window.addEventListener("load", function () {
-  if (!user) {
-    updatePage();
-  } else {
-    updatePage(user.id);
-  }
+  updatePage();
 });
 
 dayButtons.addEventListener("click", (event) => {
@@ -93,19 +86,18 @@ dayButtons.addEventListener("click", (event) => {
   }
 });
 
-submitButton.addEventListener("click", () => {
+submitButton.addEventListener("click", (e) => {
+  e.preventDefault();
   if (ozInput.value.length > 0 && dateInput.value.length > 0) {
     closeForm();
     let date = dateInput.value.split("-").join("/");
     postHydrationData(date, ozInput.value, user.id);
   } else if (ozInput.value.trim().length === 0 && dateInput.value.length > 0) {
-    event.preventDefault();
     formError.innerText = "Please enter Oz Drank...";
   } else if (ozInput.value.trim().length > 0 && dateInput.value.length === 0) {
-    event.preventDefault();
+
     formError.innerText = "Please select a date...";
   } else {
-    event.preventDefault();
     formError.innerText = "You need to select a date and enter Oz Drank!";
   }
 });
@@ -276,17 +268,11 @@ function updateButtonsDate(dates) {
 
 function openForm() {
   popUpForm.style.display = "block";
-  sleepMeters.forEach((meter) => {
-    meter.style.filter = "blur(6px)";
-  });
 }
 
 function closeForm() {
   sessionStorage.setItem("user", user.id);
   popUpForm.style.display = "none";
-  sleepMeters.forEach((meter) => {
-    meter.style.filter = "none";
-  });
 }
 
 draggables.forEach((draggable) => {
@@ -324,3 +310,4 @@ containers.forEach((container) => {
   });
 })
 
+export { updatePage };

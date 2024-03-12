@@ -1,3 +1,5 @@
+import { updatePage } from "./domUpdates";
+
 function fetchUserData(usersData) {
   return fetch("https://fitlit-server-18177a023c25.herokuapp.com/api/v1/users")
     .then((response) => response.json())
@@ -31,7 +33,7 @@ function postHydrationData(date, numOunces, userID) {
     }
     return response.json();
   })
-  .then(data => data)
+  .then(data => updatePage())
   .catch(error => popUpError.innerText = error.message)
 }
 
