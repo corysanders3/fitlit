@@ -11,14 +11,20 @@ Having a clear and concise overview of activity and tracking it over time is cru
 - FitLit API
 
 ## Primary Technologies Used
-- Webpack
-- HTML
-- CSS
-- JavaScript
-- Mocha Testing Framework & Chai Assertion Library
-- [Fluid Meter Library](https://github.com/aarcoraci/fluid-meter)
+
+<div align="left">
+    <img src="https://img.shields.io/badge/JavaScript-E8D44D?style=for-the-badge&logo=javascript&logoColor=fff" alt="javascript badge">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge" alt="html badge">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=for-the-badge" alt="css badge">
+    <img src="https://img.shields.io/badge/Webpack-8ACEF1?style=for-the-badge&logo=webpack&logoColor=fff" alt="css badge">
+    <img src="https://img.shields.io/badge/Mocha-886446?style=for-the-badge&logo=mocha&logoColor=fff" alt="css badge">
+    <img src="https://img.shields.io/badge/Chai-980B05?style=for-the-badge&logo=chai&logoColor=fff" alt="css badge">
+</div>
+
+[Fluid Meter Library](https://github.com/aarcoraci/fluid-meter)
 
 ## Next Steps
+
 Additional enhancements could include:
 - Animating the circle progress bars like the fluid meter
 - Allowing the user to choose a date instead of defaulting to the most recent
