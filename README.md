@@ -12,7 +12,7 @@ Having a clear and concise overview of activity and tracking it over time is cru
 
 ## Primary Technologies Used
 
-<div align="left">
+<div align="center">
     <img src="https://img.shields.io/badge/JavaScript-E8D44D?style=for-the-badge&logo=javascript&logoColor=fff" alt="javascript badge">
     <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge" alt="html badge">
     <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=for-the-badge" alt="css badge">
