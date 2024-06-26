@@ -55,4 +55,4 @@ This application uses a combination of Mocha Testing Framework and Chai Assertio
 
 ## Deployed Page
 
-[FitLit](https://corysanders3.github.io/fitlit/)
+[FitLit](https://activity-tracker-ten-inky.vercel.app/)
