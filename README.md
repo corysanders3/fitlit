@@ -11,14 +11,20 @@ Having a clear and concise overview of activity and tracking it over time is cru
 - FitLit API
 
 ## Primary Technologies Used
-- Webpack
-- HTML
-- CSS
-- JavaScript
-- Mocha Testing Framework & Chai Assertion Library
-- [Fluid Meter Library](https://github.com/aarcoraci/fluid-meter)
+
+<div align="center">
+    <img src="https://img.shields.io/badge/JavaScript-E8D44D?style=for-the-badge&logo=javascript&logoColor=fff" alt="javascript badge">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge" alt="html badge">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=for-the-badge" alt="css badge">
+    <img src="https://img.shields.io/badge/Webpack-8ACEF1?style=for-the-badge&logo=webpack&logoColor=fff" alt="webpack badge">
+    <img src="https://img.shields.io/badge/Mocha-886446?style=for-the-badge&logo=mocha&logoColor=fff" alt="webpack badge">
+    <img src="https://img.shields.io/badge/Chai-980B05?style=for-the-badge&logo=chai&logoColor=fff" alt="webpack badge">
+</div>
+
+[Fluid Meter Library](https://github.com/aarcoraci/fluid-meter)
 
 ## Next Steps
+
 Additional enhancements could include:
 - Animating the circle progress bars like the fluid meter
 - Allowing the user to choose a date instead of defaulting to the most recent
@@ -34,11 +40,7 @@ Additional enhancements could include:
 2. Clone your own local version of the repository
 3. Run `npm install` to install project dependencies
 4. Run `npm start` to start the server
-5. You will also need to run the backend server. That repository can be found [here](https://github.com/corysanders3/fitlit-api).
-6. Clone a local version of the repo in step 5.
-7. CD into that directory and run `npm install` to install project dependencies
-8. Run `npm start` to start that server
-9. Navigate to the address provided within the terminal ex: http://localhost:8080/
+5. Navigate to the address provided within the terminal ex: http://localhost:8080/
 
 ## Test Driven Development
 
@@ -50,3 +52,7 @@ This application uses a combination of Mocha Testing Framework and Chai Assertio
 - [Cory Sanders](https://github.com/corysanders3)
 - [Ethan Duvall](https://github.com/Eduvall23)
 - [David Kwon](https://github.com/dkwon1223)
+
+## Deployed Page
+
+[FitLit](https://corysanders3.github.io/fitlit/)
