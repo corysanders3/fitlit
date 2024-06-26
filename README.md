@@ -8,7 +8,7 @@ Having a clear and concise overview of activity and tracking it over time is cru
 
 ## APIs Used
 
-- FitLit API
+- [FitLit API](https://github.com/corysanders3/fitlit-api)
 
 ## Primary Technologies Used
 
